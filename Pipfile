@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pillow = "*"
+
+[dev-packages]
+ipython = "*"
+pdbpp = "*"
+
+[requires]
+python_version = "3.9"
